@@ -108,14 +108,14 @@ public class Array2DPractice
   public static char[][] copyBoard(char[][] original)
   {
     int row = original.length;
-    int column = original[0].length
+    int column = original[0].length;
     char[][] copyCat = new char[row][column];
     //create 2D array of char
 
       //transverse again
       //>>inside the for loop, copy(1,1) = original(1,1)
   }
-  
+}
 
 
   /**
