@@ -11,7 +11,7 @@ import java.util.*;
 
 /**
 
-   INSTRUCTIONS:
+  // INSTRUCTIONS:
    Place this file in a folder named programming/3/.
    This file contains the following completed method. Use it as a model
    to help you with the other methods:
