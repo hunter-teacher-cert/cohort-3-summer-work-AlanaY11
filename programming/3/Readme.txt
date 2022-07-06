@@ -1,0 +1,7 @@
+- Need to tune your mental model? Play here: https://playgameoflife.com/
+- Want more background? Read up here: https://en.wikipedia.org/wiki/The_Game_of_Life
+- ...or here: https://www.nytimes.com/2020/12/28/science/math-conway-game-of-life.html
+- The Scientific American Article: https://www.ibiblio.org/lifepatterns/october1970.html
+- Grow cohort KB ("knowledge base") on slack:
+  - Have a Q? Ask.
+  - Confident in your skills/knowledge? _See how well you can explain it._
