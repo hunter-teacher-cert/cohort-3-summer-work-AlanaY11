@@ -1,0 +1,96 @@
+Chapter 5 Conditionals and Logic: Exercise 1
+Logical operators can simplify nested conditional statement. For example, can you rewrite this code using a single if statement
+
+if (x > 0) {
+  if (x < 0) {
+    System.out.printlin("positive single digit number.");
+//This is the code rewriten with a single if statement
+  if (x >= 0 )
+    System.out.println("positive single digit number.");
+  }
+}
+
+Chapter 5 Conditionals and Logic: Exercise 2 
+Draw a stack diagram that shows the state of the program the second time zoop is invoked.
+What is the complete output?
+The complete output is below:
+just for
+any not more 
+It's breakfast 
+!
+
+public static void zoop(String fred, int bob) {
+    System.out.println(fred);
+    if (bob == 5) {
+        ping("not ");
+    } else {
+        System.out.println("!");
+    }
+}
+
+public static void main(String[] args) {
+    int bizz = 5;
+    int buzz = 2;
+    zoop("just for", bizz);
+    clink(2 * buzz);
+}
+
+public static void clink(int fork) {
+    System.out.print("It's ");
+    zoop("breakfast ", fork);
+//second call to zoop after we call clink
+}
+
+public static void ping(String strangStrung) {
+    System.out.println("any " + strangStrung + "more ");
+}
+
+1. Draw a stack diagram that shows the state of the program the second time zoop is invoked. 
+Main = Clink -Zoop
+
+2.What is the complete output? 
+public static void zoop (String fred, int bob){
+  System.out.println(fred);
+  if (bob == 5) {
+    ping ("not ");
+  } else {
+      System.out.println("!");
+  }
+}
+public state void main(String[] args){
+  int bizz = 5;
+  int buzz = 2;
+  zoop("just for", bizz);
+  clink(2 * buzz);
+}
+
+public static void main clink(int fork) {
+  System.out.print("It's ");
+  zoop("breakfast ", fork);
+}
+
+public static void ping(String strangStrung) {
+  System.out.println("any " + strangStrung + "more ");
+}
+
+Chapter 5 Conditionals and Logic: Exercise 3
+Draw a stack diagram that shows the state of the program in Section 5.8 after main invokes nLines with the parameter n == 4, just before the last invocation of nLines returns.
+Stack Diagram
+Main 
+Countdown - n == 4
+Countdown - n == 3
+Countdown - n == 2
+Countdown - n == 1
+Countdown - n == 0
+
+
+Now that we have conditional statements, we can explore one of the most magical things a program can do: recursion. Consider the following example:
+
+public static void countdown(int n) {
+    if (n == 0) {
+        System.out.println("Blastoff!");
+    } else {
+        System.out.println(n);
+        countdown(n - 1);
+    }
+}

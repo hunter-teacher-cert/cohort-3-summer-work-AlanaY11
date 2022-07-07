@@ -1,0 +1,40 @@
+Chapter 8 Arrays:
+
+Exercise 2   The purpose of this exercise is to practice reading code and recognizing the traversal (going through one by one) patterns in this chapter. The following methods are hard to read, because instead of using meaningful names for the variables and methods, they use names of fruit.
+For each method, write one sentence that describes what the method does, without getting into the details of how it works. For each variable, identify the role it plays.
+
+For each variable, identify the role it plays
+//takes in an array of int a, and returns a single int at the end (array of integers)
+public static int banana(int[] a) {
+    int kiwi = 1;
+    int i = 0;
+    while (i < a.length) {
+        kiwi = kiwi * a[i];
+        i++;
+    }
+    return kiwi;
+}
+
+For each variable, identify the role it plays:
+// a is an array of integers - grape is a single integer and you're searching for the location of the grape
+public static int grapefruit(int[] a, int grape) {
+    for (int i = 0; i < a.length; i++) {
+        if (a[i] == grape) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+For each variable, identify the role it plays:
+//a is an array of integers - apple is  a single integer and you're searching for the location fo the apple
+public static int pineapple(int[] a, int apple) {
+    int pear = 0;
+    for (int pine: a) {
+        if (pine == apple) {
+            pear++;
+        }
+    }
+    return pear;
+}
+
