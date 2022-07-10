@@ -34,6 +34,7 @@ public class Fib
       System.out.println( fib(10) ); // -> 55
       System.out.println( fib(20) ); // -> 6765
       System.out.println( fib(40) ); // -> 102334155
+      System.out.println( fib(42) );// -> 267914296 tested out another large number, there was a pause as 42 compiled
 
   }//end main()
 
