@@ -1,3 +1,4 @@
+RA Rational Array
 Work: Gaining Familiarity with Classes via Rational (Number) Class
 For this project you'll be completing and testing a class that represents a rational number, and facilites common mathematical operations.
 
@@ -30,6 +31,8 @@ Notice that you only specifiy the Driver on the java line.
 Work: Implement SuperArray class
 All SuperArray files are in the sa subdirectory (folder)
 
+
+SA: SuperArray
 Starter Files:
 
 SuperArray.java - complete as much of this class as you can.
