@@ -14,7 +14,7 @@ public class SuperArrayDriver
     System.out.println("Testing isEmpty (should be true)");
     System.out.println(sa.isEmpty());
     sa.add(5);
-    sa.add(10;)
+    sa.add(10);
     System.out.println(sa);
     
     // -----------------------------------------------------------

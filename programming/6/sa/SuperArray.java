@@ -109,9 +109,9 @@ public class SuperArray
 
   public String toString()
   {
-    //return stringified version of this Object and you want to print every object. This method traverses through our array and we created a loop
+    //return stringified version of this Object and you want to print every object. This method traverses through our array and we created  with a loop. It's better to use numberElements which prints the most meaningful numbers instead of the index.length which prints the null 0s. 
     String myString = "";
-    for (int i = 0; i < data.length; i++) {
+    for (int i = 0; i < numberElements; i++) {
      myString += data [i] + " ";
     }
     return myString; // return
@@ -156,14 +156,14 @@ public class SuperArray
     // based on class discussion some recommed create your grow() here. Our group had already agreed with this approach 
     //see if there's enough room
 
-    if (index > numberElements){
+    if (data.length == numberElements){
       grow();
     }
       
     // shift elements toward the end of the array
     for(int i = numberElements; i > index; i--)
     {
-      data[i] = data[i--1];
+      data[i] = data[i-1];
     } 
 
     // insert new element
