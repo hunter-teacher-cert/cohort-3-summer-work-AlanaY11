@@ -88,7 +88,7 @@ public class SuperArray
   {
     //return whether this SuperArray instance is empty
     return numberElements == 0; //return checking for value in the indices based on the definition of number of elements (can also use an if statement--longer )
-    // the method below is a longer version of what is on line 92.
+    // the method below is a longer version of what is on line 92 and shows the logic or program flow of the method and is easier to understand, at least for me.
     // if (numberElements == 0)
     // {
     //   return true;
@@ -146,14 +146,14 @@ public class SuperArray
     // this is shifting all the values one place
       data[i] = data[i+1];
     }
-    // subtract fom numElements;
+    // subtract from numElements;
     numberElements--;
   }
 
 
   public void add(int index, int value)
   {
-    // class discussion recommeds create your grow() here 
+    // based on class discussion some recommed create your grow() here. Our group had already agreed with this approach 
     //see if there's enough room
 
     if (index > numberElements){
@@ -163,7 +163,7 @@ public class SuperArray
     // shift elements toward the end of the array
     for(int i = numberElements; i > index; i--)
     {
-      data[i] = data[i-1];
+      data[i] = data[i--1];
     } 
 
     // insert new element
@@ -177,7 +177,7 @@ public class SuperArray
   private void grow()
   {
     // class discussion that grow() is private becuase there is no need for anyone outside to access your grow method
-    //create a new array with extra space
+    //create a new array with 3 extra spaces
     // Q: How did you decide how much to increase capacity by?
     // A: By 3.
     int[] temp = new int[data.length+3];
@@ -188,9 +188,9 @@ public class SuperArray
       temp[i] = data[i];//this temp is a new array (container) to hold new data
     }
 
-    // point data to the new array
+    // points data to the new array
     data = temp;
-    // Q: How does this look when illustrated using encapsulation diagram?
+    // Q: How does this look when illustrated using encapsulation diagram? 
   }//end grow()
 
 }//end class
