@@ -1,0 +1,90 @@
+
+//PreReq: CS use computational thinking - at this point we've already introduced pattern recognition. (For Teacher Knowledge)
+
+CS Topic: Loops
+
+Essential Question: What is a loop?
+
+Target Audience: (3rd-5th Grades) 
+General Education & Special Education Class & Teachers
+
+Lesson objective: Students will be able to define loops and apply loops to real-world situations and programming.
+
+Duration: 1 class period (45 minutes)
+
+Vocabulary
+Loop(s) - repeats a sequence of steps; a command that repeats a portion of code; a task that repeats.
+
+Warm up/Anticipatory Set (Hook) - 10 min.
+The teacher walks around a desks 1, 2, and 3 times. Teacher prompts the students to count how many times the teacher is walking around the desk. 
+Class discussion with about Loops: Teacher ask class to describe what they saw.  I just did a loop around this table. Teacher aska students what do they think is a loop?
+
+//Show the students a visual of a loop (real-world connection) 
+Teacher aks students to describe what they saw, 
+
+
+Brainstorm real-world examples of repetitive tasks (brushing teeth, tying shoes, using a vacuum)
+- setting the alarm clock to ring everyday
+- repeating a pattern in a craft - like bracelets or sewing
+
+//(For Teach Knowledge)**Connect this to computational thinking skill - pattern recognition**
+
+Mini/Micro Lesson (10 mins or less)
+Introduce Loop Concept with Visual, Auditory, and Movement (Choose one loop video based on class level) Teacher chooses one video to show to class and discusses loops and it's applications in programming and real-world situations.
+
+Option 1 (Basic Level - Grade 3)
+Show Scratch Garden's "Loop" Song & Video  students stand up and follow along the dance moves in the video. Students sing along with the lyrics for the song printed out for them.
+https://www.youtube.com/watch?v=oWjiJIoG3nQ
+
+Option 2 (Basic to Intermediate Level Grade 4 -5)
+Show Flocabulary's Hip-Hip Song & Video on "Loops" https://www.flocabulary.com/unit/coding-for-loops/ (only show parts of the video, stop when it gets to for loops)
+
+Option 3: (3-5)
+Kodable's "What are Loops?"https://www.youtube.com/watch?v=r3Ti5Xp9W8A
+
+
+Universal Design for Learning UDL Adaptations (through Engagement, Representation, Action & Expression)
+
+Guided Practice (10 mins)
+Think-Pair-Share- Techer ask students to turn and talk - "Remember computer sciencetists use computational thinking skills to solve problems. What computational thinking skills do you think we might use to figure out when we need a loop?"
+Options for Interactive Response Feedback - Individual or Pair Response: 
+Binary Feedback - Thumbs up, down, sideways if you(team) ready to share loop example 
+Technology Feedback - Teacher can use technology tool Padlet, Nearpod, or Seesaw.
+
+Seesaw - https://web.seesaw.me/ (Grades 3-5, Special Education)
+Students can enter their repsonse in various modalities: respond either verbally (voice record their response), or draw their response (draw), write (type), or video tape (video) their response.
+
+Nearpod - https://nearpod.com/how-nearpod-works (Grades 4-5)
+Students use a Nearpod code to join the Nearpod lesson and enter their individual/pair responses in Nearpod.
+
+Padlet - https://padlet.com/features (Grades 4-5)
+teacher provides padlet link and student/pair type in loop examples. The padlet is displayed on a Smartboard for students to see their input. Teacher aks for volunteers to share their response
+
+Group Work
+
+All Learners
+Unplugged activity: Watch videos showing a dance routine. 
+In pairs, students create a dance routine using the dance commands listed below to create a dance that loops (2, or 3,or  4 times)
+Students are given dance task cards with the following commands [clap, kick, stomp, jump, hands-in-the-air, swirl, dab, wiggle, high-five]. They map out their "loop dance" using only 3-4 commands, then practice the loop dance they created, then present their loop dance to the class. Classmates then determine how many loops were demonstrate in the "loop dance".
+
+See Google Slide print out here with task cards and loop dance instruction 
+a) http://www.helloruby.com/play/39 (Simplier version Grade 3+
+
+See Code.Org's loop dance activity https://studio.code.org/s/course1/lessons/12/levels/1 (Intermediate version Grade 4+)
+
+Intermediate Level-Early Finishers
+Program loops in block-based program on Code.Org's Maze Loop's Module (display code.org's loop block-based code - see 01_Loop.Maze.Code.Org image )
+https://studio.code.org/s/course2/lessons/6/levels/2
+
+//Teacher Knowledge- Look for a pattern and identify how many times it is repeated.
+
+Assessmen/Closing:
+Display an Image of a four color (red, green, blue, yellow-rgby -view image 01_loopy.snake.Assessment) necklace called the "Loopy Snake" on the Smart Board. Students count the number of times (loops) the (rgby) appears in "Loopy Snake" necklace. 
+
+Binary Feedback:
+Thumbs up(I understand loops).
+Thumbs sideways (I understand loops a little bit).
+Thumbs down (I don't understand loops).
+
+Continue to wrap up the lesson with a discussion on loops and their uses. 
+
