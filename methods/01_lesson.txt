@@ -42,6 +42,9 @@ Show Flocabulary's Hip-Hip Song & Video on "Loops" https://www.flocabulary.com/u
 Option 3: (3-5)
 Kodable's "What are Loops?"https://www.youtube.com/watch?v=r3Ti5Xp9W8A
 
+Demonstrate Loops in Scratch
+"Loops 101" in Scratch Programming - Teacher shows a Scratch project that demonstrates how loops are used in Scratch.
+https://scratch.mit.edu/projects/145075588/
 
 Universal Design for Learning UDL Adaptations (through Engagement, Representation, Action & Expression)
 
