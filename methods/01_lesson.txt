@@ -10,27 +10,28 @@ General Education & Special Education Class & Teachers
 
 Lesson objective: Students will be able to define loops and apply loops to real-world situations and programming.
 
-Duration: 1 class period (45 minutes)
+Duration: 1 -2 class periods (45 minutes)
 
 Vocabulary
 Loop(s) - repeats a sequence of steps; a command that repeats a portion of code; a task that repeats.
 
 Warm up/Anticipatory Set (Hook) - 10 min.
 The teacher walks around a desks 1, 2, and 3 times. Teacher prompts the students to count how many times the teacher is walking around the desk. 
-Class discussion with about Loops: Teacher ask class to describe what they saw.  I just did a loop around this table. Teacher aska students what do they think is a loop?
 
-//Show the students a visual of a loop (real-world connection) 
-Teacher aks students to describe what they saw, 
+Lead class discussion with about Loops: Teacher ask class to describe what they saw.  I just did a loop around this table. Teacher aska students what do they think is a loop?
 
 
 Brainstorm real-world examples of repetitive tasks (brushing teeth, tying shoes, using a vacuum)
 - setting the alarm clock to ring everyday
 - repeating a pattern in a craft - like bracelets or sewing
+- show class loop examples in the real-world 
 
 //(For Teach Knowledge)**Connect this to computational thinking skill - pattern recognition**
 
 Mini/Micro Lesson (10 mins or less)
 Introduce Loop Concept with Visual, Auditory, and Movement (Choose one loop video based on class level) Teacher chooses one video to show to class and discusses loops and it's applications in programming and real-world situations.
+
+Teacher chooses one Video/Song based on class level:
 
 Option 1 (Basic Level - Grade 3)
 Show Scratch Garden's "Loop" Song & Video  students stand up and follow along the dance moves in the video. Students sing along with the lyrics for the song printed out for them.
@@ -66,20 +67,30 @@ teacher provides padlet link and student/pair type in loop examples. The padlet 
 Group Work
 
 All Learners
-Unplugged activity: Watch videos showing a dance routine. 
-In pairs, students create a dance routine using the dance commands listed below to create a dance that loops (2, or 3,or  4 times)
-Students are given dance task cards with the following commands [clap, kick, stomp, jump, hands-in-the-air, swirl, dab, wiggle, high-five]. They map out their "loop dance" using only 3-4 commands, then practice the loop dance they created, then present their loop dance to the class. Classmates then determine how many loops were demonstrate in the "loop dance".
+Unplugged Activity:
 
+First watch video showing a dance routine. 
+In pairs, students create a dance routine using the dance commands listed below to create a dance with (2, or 3, or 4) loops.
+
+Group/Student(s) are given dance task cards with the following commands [clap, kick, stomp, jump, hands-in-the-air, swirl, dab, wiggle, high-five]. 
+
+They map out their "loopy dance" using only 3-4 commands, then practice the loop dance they created, then present their loop dance to the class. Classmates then determine how many loops were demonstrate in the "loopy dance".
+
+CHOOSE A OR B Depending on the level of your class 
 See Google Slide print out here with task cards and loop dance instruction 
 a) http://www.helloruby.com/play/39 (Simplier version Grade 3+
 
-See Code.Org's loop dance activity https://studio.code.org/s/course1/lessons/12/levels/1 (Intermediate version Grade 4+)
+b) See Code.Org's loop dance activity https://studio.code.org/s/course1/lessons/12/levels/1 (Intermediate version Grade 4+)
 
-Intermediate Level-Early Finishers
-Program loops in block-based program on Code.Org's Maze Loop's Module (display code.org's loop block-based code - see 01_Loop.Maze.Code.Org image )
+FOR Intermediate Level OR Early Finishers:
+Groups/Student(s) then program loops in block-based on Code.Org's Maze Loop's Module (display code.org's loop block-based code to show students example of code - see 01_Loop.Maze.Code.Org image )
 https://studio.code.org/s/course2/lessons/6/levels/2
 
 //Teacher Knowledge- Look for a pattern and identify how many times it is repeated.
+
+Share-Out: Groups/Student(s) shares out and demonstrates their "loopy dance". Class identifies what commands are being repeated in the dance?
+How many loops did the group's dance demonstrate?
+
 
 Assessmen/Closing:
 Display an Image of a four color (red, green, blue, yellow-rgby -view image 01_loopy.snake.Assessment) necklace called the "Loopy Snake" on the Smart Board. Students count the number of times (loops) the (rgby) appears in "Loopy Snake" necklace. 
@@ -89,5 +100,5 @@ Thumbs up(I understand loops).
 Thumbs sideways (I understand loops a little bit).
 Thumbs down (I don't understand loops).
 
-Continue to wrap up the lesson with a discussion on loops and their uses. 
+//Continue to wrap up the lesson with a discussion on loops and their uses. 
 
