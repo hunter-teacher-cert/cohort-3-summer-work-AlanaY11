@@ -1,7 +1,9 @@
-//Collaborators Alana Robinson
-
-//Patti Elfers, Ed Hawkins, Kirk 
-
+/**
+  Team - Group 10
+ * Alana Robinson
+ * collaborators: Ed Hawkins, Kirk Martin Patti Elfers
+ */
+  
 //Teacher Prompts
 
 /* PROVIDE (P) :: code snippets or comments you definitely want to provide
