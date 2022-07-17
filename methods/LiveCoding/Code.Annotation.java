@@ -1,4 +1,6 @@
+//Collaborators Alana Robinson
 
+//Patti Elfers, Ed Hawkins, Kirk 
 
 //Teacher Prompts
 
@@ -16,7 +18,7 @@ REVISION vX (REV) :: better versions of firstdraft code...
 
 
 //(MAQ) what do we call this (method, class?)
-//(MAQ) - what do you think line 20 is doing? 
+//(MAQ) - what do you think line 22 is doing? 
 //Provide (P) remember what() this means - inside these () parenthesis are the parameters - what are the paremeters on line 23?
 //Wh
 public int linearSearch(int value, ArrayList<Integer> data) {

@@ -193,4 +193,4 @@ public class SuperArray
     // Q: How does this look when illustrated using encapsulation diagram? 
   }//end grow()
 
-}//end class
+}//end clas
