@@ -1,0 +1,26 @@
+Trace diagram resources
+
+echoes from programming main repo...
+
+ThinkJava: https://books.trinket.io/thinkjava/chapter4.html (see 4.7 Stack diagrams)
+
+online visualizer: https://cscircles.cemc.uwaterloo.ca/java_visualize/
+
+Activity :: Table trace
+teams for TRACING
+
+1	myearwood	cdesilva	hfung	qzou
+2	ylevels	kmaschmeyer	dmoste	aufret
+3	lboland	jpark	mshuman	erechtin
+4	abraick	mrandazzo	rkaufman	jtheobald
+5	beckley	kherr	aprado	twilliams
+6	shenry	sgoldstein	gsciame	twardally
+7	jlin	alee		ncojuangco
+8	cmarra	kmartin	tgrant-knight	dciolino-volano
+9	smuller	pmohanlall	ssabaugh	sadams
+10	mpark	ehawkins	adriggers	uahmed
+11	rparker	jhiggins	jbianchi	acassara
+12	arobinson	elara	sseccafico	pelfers-wygand
+13	ysears	jnovilloargudo	yyoung	smccoy
+14	wtobias	wlamorie	jxue	
+15	awade	slojacono	mthomas	

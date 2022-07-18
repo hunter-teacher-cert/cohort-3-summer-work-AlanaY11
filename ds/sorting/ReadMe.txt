@@ -1,0 +1,19 @@
+Sorting and Searching
+
+Part 1 - Sorting
+Folder: ds/sorting
+
+Copy the files SortSearch.java and SortSearchDriver.java to your ds/sorting directory.
+
+Instructions
+
+Read the file SortSearch.java for specific instructions and grading information.
+
+You will add to these files for the searching and Advanced Sorting assignments.
+
+Part 2 - Searching
+
+Check back when we cover this material
+
+Part 3 - Advanced Sorting
+Check back when we cover this material

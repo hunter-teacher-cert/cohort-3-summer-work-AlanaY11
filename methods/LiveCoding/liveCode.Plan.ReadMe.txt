@@ -1,0 +1,27 @@
+Assignment :: Create a livecoding plan of your own by annotating code.
+
+Come up with TNPG.
+
+Select a language to write a livecoding plan for.
+
+Select a task to write a livecoding plan for (ideally, this would be a piece of code you have already available, it could even be sample code provided to you in the programming/data structures course)
+
+Create your livecoding plan. You can use any combination of the TEACHER PROMPTS from the previous activity and your own reminders/symbols/notation.
+
+DELIVERABLE: Submit your livecoding plan as methods/02_livecode_LANGUAGE with the appropriate file extension for your plan. If your group creates a plan that includes drawing markup, a pdf or image file is acceptable.
+
+
+//Teacher Prompts
+
+ PROVIDE :: code snippets or comments you definitely want to provide
+  STUDENT-PROMPT :: a specifically-worded question you want to ask, or a general solicitation for input, etc
+  MUST-ANSWER-Q :: a question that must be resolved, that a majority of your class must understand before moving on
+  BIG IDEA :: an introduction of a new topic, a connection to prior lesson or discussion for application here in code, etc.
+  BEEG REVEAL :: this is gonna blow yer minds...
+  DELIBERATE-ERROR :: specific code snippet or a general approach that is a bad fit for the situation, is flat-out wrong, or will lead to a compile- or run-time error, etc.
+  FIRSTDRAFT :: code that will work for now, but which you intend to replace later
+  REVISION vX :: better versions of firstdraft code...
+
+//Added by Yenmin in Slack 7.18.22 ++ love these 
+Clarify an Idea (which can be posed as a side note, or a question)
+Additional Information (teacher discretion whether or not the students can handle more information)
