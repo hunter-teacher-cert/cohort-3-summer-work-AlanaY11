@@ -16,6 +16,7 @@ size()
 add(int index,String value)
 indexOf(String value);
 toArray()
+
 Challenge
 --------
 remove(int index);
@@ -52,7 +53,7 @@ public class LinkedList{
       i += 1;
     }
     
-    return temp;
+    return temp.getData();
   }
 
   /**
@@ -73,7 +74,13 @@ public class LinkedList{
   returns the number of elements in the list
   */
   public int size(){
-    return 0;
+    int i=0;
+    Node temp = head;
+    while(temp != null) {
+      temp = temp.getNext();
+      i += 1;
+    }
+    return i;
   }
 
 
@@ -91,6 +98,29 @@ public class LinkedList{
   */
   public void add(int index, String value){
 
+    // Node I = new Node(value);
+    // Node temp=head;
+    // //set temp to word using a while loop
+
+    
+    // temp = I.setNext
+  Node I = new Node(value);
+		//I.setNext() = null;
+		
+		if(index==0)
+		{
+			add(value);
+		}
+		else{
+		Node temp = head;
+		for(int i=0;i<index-1;i++)
+		{
+			temp = temp.getNext();
+		}
+		I.setNext(temp.getNext()); 
+		temp.setNext(I);
+		}
+    
   }
 
 
@@ -103,7 +133,19 @@ public class LinkedList{
   indexOf("d") would return 3 since "d" is at location 3.
   */
   public int indexOf(String value){
-    return 0;
+    Node temp = head;
+      int i = 0;
+      while (temp !=null){
+    
+        if (temp.getData()==value){
+          return i;
+        }
+        else{
+          i++;
+          temp = temp.getNext();
+        }
+      }
+    return -1;
   }
 
 
@@ -113,8 +155,16 @@ public class LinkedList{
   It should then copy all of the values to the array and return
   the array.
   */
+  //we're going through and creating a for loop and then copying it. Creating a String temp variable copies the array. We used size to call the linked list
   public String[] toArray(){
-    return null;
+    String [] a= new String[size()];
+    Node temp=head;
+    for (int i=0; i<size(); i++){
+     a[i]=temp.getData();
+      temp=temp.getNext();
+    }
+    
+    return a;
   }
 
 
