@@ -27,7 +27,7 @@ public class LinkedList{
   private Node head;
 
   public LinkedList(){
-    head = null;
+    head = null;// head is being preset to null because the linked list is empty
   }
 
   /**
@@ -35,8 +35,11 @@ public class LinkedList{
   value - the new string to add to the list
   Adds a new node containing value to the front of the list.
   */
+
+  //adds() method adds a new node that is pointing to the head or front of the list and then this makes it the new head
   public void add(String value){
 
+    //()node a - this creates a new node which points to the old node or head of the list
     Node a = new Node(value, head);
     head = a;
   }
@@ -44,30 +47,32 @@ public class LinkedList{
   /**
   Returns the String in the node at location index.
   */
+  //()get method returns the string at a specified index in the node
+  //temp variable creates a temp reference for the while loop
   public String get(int index){
 
-    int i=0;
+    int i=0;// i is the counter
     Node temp = head;
     while(i<index) {
-      temp = temp.getNext();
+      temp = temp.getNext();//Create a temp variable which is similar to "walker" and allows you to traverse or travel through the linked list
       i += 1;
     }
     
-    return temp.getData();
+    return temp.getData();//we are going throught the list and finding a specific element and returning that element, which is ()getData.
   }
 
   /**
   Return a string representation of the list
   */
   public String toString(){
-    String list = "";
+    String list = "";// create a blank string
     Node temp = head;
     while(temp != null) {
-      list = list+(temp);
+      list = list+(temp);//this adds the value or a string version of the list
       temp = temp.getNext();
     }
     
-    return list;
+    return list;//it returns all the string elements 
   }
 
   /**
@@ -77,10 +82,10 @@ public class LinkedList{
     int i=0;
     Node temp = head;
     while(temp != null) {
-      temp = temp.getNext();
+      temp = temp.getNext();// ()getNext is a way to get the next value
       i += 1;
     }
-    return i;
+    return i;//this i tells us how big the list is and we are using i to count every element in the list, i is the counter
   }
 
 
@@ -97,7 +102,7 @@ public class LinkedList{
   "a"-> "z" -> "b" -> "c" -> "d"
   */
   public void add(int index, String value){
-
+      //this method is we are adding a string specified by the int value - the int is the location that tells us where to put it and the it is the string
     // Node I = new Node(value);
     // Node temp=head;
     // //set temp to word using a while loop
@@ -145,7 +150,7 @@ public class LinkedList{
           temp = temp.getNext();
         }
       }
-    return -1;
+    return -1;//this means it was not found, it is another way writing an error message
   }
 
 
@@ -157,10 +162,10 @@ public class LinkedList{
   */
   //we're going through and creating a for loop and then copying it. Creating a String temp variable copies the array. We used size to call the linked list
   public String[] toArray(){
-    String [] a= new String[size()];
+    String [] a= new String[size()];// we are creating a blank array the same size as the linked list
     Node temp=head;
-    for (int i=0; i<size(); i++){
-     a[i]=temp.getData();
+    for (int i=0; i<size(); i++){//this is how we are counting through the array
+     a[i]=temp.getData();//it's copying the walker as the walker is going down the linked list; it's taking the getData from that "i" p
       temp=temp.getNext();
     }
     

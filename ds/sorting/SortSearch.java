@@ -69,7 +69,7 @@ public class SortSearch{
       
     */
     public int findSmallestIndex(int start){
-	int smallIndex = 0;
+	  int smallIndex = start;
 	
 	return smallIndex;
     }
