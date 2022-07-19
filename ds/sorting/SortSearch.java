@@ -70,8 +70,22 @@ public class SortSearch{
     */
     public int findSmallestIndex(int start){
 	  int smallIndex = start;
-	
-	return smallIndex;
+      //given an index, want smallest number in array list starting from this index
+      //create a temporary variable for smallest number = first index(value)
+      //traverse the list with for loop
+      //check if less than current number
+      //at end of list will return smallestNumber
+      int smallestNumber = data.get(start);//Becuase start is the starting index to search from, we want to set the corresponding value to be our starting smallest number
+      
+      for(int i = start + 1; i <data.size(); i++) //Because we've already dealt with data[start] in line 78, we want to start searching through the array past that, so smallIndex = start + 1, and this for loop will go from that to the end of the array
+      {
+        if (data.get(i) < smallestNumber) // If the current value we're looking at with the for loop is less than our current smallestNumber, enter this statement
+        {
+          smallestNumber = data.get(i); //reassign smallestNumber to new smallest number
+          smallIndex = i; //reassign index of smallest number to new index of smallest number
+        }
+      }
+    return smallIndex;//returning the smallest value's location
     }
 
 
