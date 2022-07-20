@@ -69,10 +69,18 @@ Translation software such as Google Translate or Microsoft Translator
 
 Java Visualizer - https://cscircles.cemc.uwaterloo.ca/java_visualize/
 
-YouTube Videos
+YouTube Videos Playlist based on CS topics (i.e. LinkedList, Arrays, etc.)
+
+Computer Science Teachers Association (CSTA) Inclusive Teaching Pedagogies
+https://csteachers.org/page/inclusive-teaching-pedagogies
+
+Strategies for Effective & Inclusive CS Teaching
+https://www.csforallteachers.org/resource/strategies-effective-inclusive-cs-teaching-free-virtual-course
 
 Inclusive CS Teaching from CS Awesome https://www.inclusivecsteaching.org/
 
+Inclusive Classroom Resources & Best Practices from University of Pittsburg, School of Computing and Information, Department of Computer Science
+https://www.cs.pitt.edu/community/resources/inclusive-classroom-resources-best-practices
 
 OTHER:
 ---------------------------------------

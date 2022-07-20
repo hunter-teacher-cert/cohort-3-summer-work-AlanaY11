@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
-
+//Collaborators Room 12 Alana Robinson
+//Patti Elfers, Erwin Lara, SueAnn Seccafico, TA Luca
 /*
 Sort Project:
 Part 1:  (BASIC)
@@ -117,8 +118,11 @@ public class SortSearch{
        This algorithm works on any ArrayList.
     */
     public int linearSearch(int value){
-	
-	
+	  int firstElement = Data.index;
+    for(i = firstElement; get.Next.Data; ++) {
+    if(firstElement)    
+    }
+    
 	return 0; // replace this return
     }
     
