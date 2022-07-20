@@ -148,7 +148,7 @@ public class ArrayPractice{
       System.out.println(value + " does not appear in this array.");
     }
     
-    return location; // change this
+    return location; // change this this is the index that the value makes it's first occurence(this is the first occurence location!!) 
   }
 
 

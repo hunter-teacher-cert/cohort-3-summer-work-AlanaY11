@@ -56,11 +56,13 @@ public class LinkedList{
     int i=0;// i is the counter
     Node temp = head;
     while(i<index) {
-      temp = temp.getNext();//Create a temp variable which is similar to "walker" and allows you to traverse or travel through the linked list
+      temp = temp.getNext();
+//Create a temp variable which is similar to "walker" and allows you to traverse or travel through the linked list
       i += 1;
     }
     
-    return temp.getData();//we are going throught the list and finding a specific element and returning that element, which is ()getData.
+    return temp.getData();
+//we are going throught the list and finding a specific element and returning that element, which is ()getData.
   }
 
   /**
@@ -70,7 +72,8 @@ public class LinkedList{
     String list = "";// create a blank string
     Node temp = head;
     while(temp != null) {
-      list = list+(temp);//this adds the value or a string version of the list
+      list = list+(temp);
+  //this adds the value or a string version of the list
       temp = temp.getNext();
     }
     
@@ -104,13 +107,13 @@ public class LinkedList{
   "a"-> "z" -> "b" -> "c" -> "d"
   */
   public void add(int index, String value){
-      //this method is we are adding a string specified by the int value - the int is the location that tells us where to put it and the it is the string
-    // Node I = new Node(value);
-    // Node temp=head;
-    // //set temp to word using a while loop
+//this method is we are adding a string specified by the int value - the int is the location that tells us where to put it and the it is the string
+  // Node I = new Node(value);
+  // Node temp=head;
+  // //set temp to word using a while loop
 
     
-    // temp = I.setNext
+  // temp = I.setNext
   Node I = new Node(value);
 		//I.setNext() = null;
 		
