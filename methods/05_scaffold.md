@@ -3,7 +3,7 @@
 Roster: Alana Robinson, Ashley Ufret, Shana Elizabeth Henry, Qianhui Vanessa Zou
 
 
-### Technique: Diagramming
+### Technique: Diagramming (Storyboard in Elementary and Special Education)
 
 #### Well-suited to...
 * algorithm
@@ -43,6 +43,7 @@ Roster: Alana Robinson, Ashley Ufret, Shana Elizabeth Henry, Qianhui Vanessa Zou
 * before activities
 * during lessons
 * assignments
+* program flow
 
 #### Example
 * all activities
@@ -53,9 +54,9 @@ Roster: Alana Robinson, Ashley Ufret, Shana Elizabeth Henry, Qianhui Vanessa Zou
 
 ### Related resources
 * Whiteboard  https://miro.com/login-displays/
-* CSAwesome.org
+* CSAwesome.org https://runestone.academy/ns/books/published/csawesome/index.html
 * TAs
-* cheatsheets
+* Cheatsheets
 * Sue Sentence: https://suesentance.net/2018/01/05/a-continuum-of-scaffolding/
 * Book: Instructional Scaffolding in STEM Education: Strategies and Efficacy Evidence by Brian R. Belland
 

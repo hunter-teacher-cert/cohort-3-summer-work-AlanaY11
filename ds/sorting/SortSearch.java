@@ -52,7 +52,6 @@ public class SortSearch {
     public int get(int index){
 	  return this.data.get(index);
     }
-    
     /*
       return the index of the smallest data item from index start to the end
       of the ArrayList. If there are multiple of the smallest value,
@@ -78,7 +77,7 @@ public class SortSearch {
       //Becuase start is the starting index to search from, we want to set the corresponding value to be our starting smallest number
       
       for(int i = start + 1; i <data.size(); i++) 
-//Because we've already dealt with data[start] in line 78, we want to start searching through the array past that, so smallIndex = start + 1, and this for loop will go from that to the end of the array
+
       {
         if (data.get(i) < smallestNumber) 
 // If the current value we're looking at with the for loop is less than our current smallestNumber, enter this statement
@@ -105,14 +104,12 @@ public class SortSearch {
   
     public void sort(){
     
-  //create an instance variable for the smallIndex 
-   
-      //int smallIndex = 0;// this is a holder once you find the smallest index and it will always change when you loop through the array
+  //create an instance variable for the smallIndex   
+  //this is a holder once you find the smallest index and it will always change when you loop through the array
       int tempInt = 0;//this variable is what you use to swap the holder or (int smallIndex)
-     
       
       for(int i =0; i<data.size(); i++) {
-      //create a loop a variable that represents the ArrayList index from 0 to end of ArrayList -this is when the loop starts
+//create a loop a variable that represents the ArrayList index from 0 to end of ArrayList -this is when the loop starts
      
        int smallIndex = findSmallestIndex(i); 
 // this is finding the index of the smallest value within that range in the loop
@@ -149,7 +146,7 @@ public class SortSearch {
 	    for(int i =0; i<data.size(); i++) {
         
         if (data.get(i) == value){
-          return i;}// return the index of that element once the element is at i then you want to return that positio
+          return i;}// return the index of that element once the element is at i then you want to return that position
               }
       
       return -1; // return -1 is if the index at i value is not found then you're telling the computer that this is outside the array loop, it's like an error message
@@ -176,7 +173,7 @@ precondition is arry sorted from bigest to smallest or smallest to biggest
 // right = middle - 1;
   
   public int binarySearch(int value){
-    // Kevin: Initialization outside the while loop
+    //  Initialization outside the while loop
   int low = 0;
   int high = data.size() - 1;
 	// create assign variables representing the high, low and middle indices 
@@ -209,11 +206,10 @@ precondition is arry sorted from bigest to smallest or smallest to biggest
       middle = (low + high)/2;
      //int middle = (low +high)/2;
 
-      // Kevin: No need for this if condition, the one found at line 196-198 does the same job
-      /*if (value == data.get(middle)) {
-        return middle;
-      }//204 */
-    }//199
+     {
+        
+      
+    }
           
       
     }
@@ -222,9 +218,9 @@ precondition is arry sorted from bigest to smallest or smallest to biggest
   
   }
 
-  
-public String toString(){
+  public String toString(){
   return ""+data;
+    
   }
 
 } 
