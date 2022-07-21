@@ -50,8 +50,7 @@ Captured varied responses from students - use technology tools such as Seesaw to
 * etc
 
 Simon Says: If/Then:
-https://minecraft.makecode.com/courses/csintro/conditionals/unplugged
-  The teacher will be purposeful in the choices made for the conditional commands (getting to know your students) such that this game can be engaging while also informative to differentiate small groups for students who have misconceptions or are not able to demonstrate understanding consistently. IE:  
+https://minecraft.makecode.com/courses/csintro/conditionals/unplugged    
 IF your first name starts with a ‘J’, THEN give me a thumbs up
 IF your last name ends with a ‘Y’ or an ‘R’, THEN raise both your arms
 *While the statements below would only be informative if the teacher knows the responses.
@@ -60,9 +59,6 @@ IF your favorite ice cream flavor is chocolate, THEN stick out your tongue, ELSE
 IF you play a musical instrument, THEN snap your fingers, ELSE whistle
 IF your favorite monster in Minecraft is a zombie, THEN make zombie noises and movements, ELSE jump up and down
 
-
 * * *
-
-Done already? Looking to be xtra? (this is entirely optional... only if you see a place where an image could help in a big way, and you have some time to noodle with your markdown)
 
 A not-too-bad how-to guide for inserting images in your markdown: https://www.foxinfotech.in/2019/12/github-markdown-add-an-image-to-readme-md-file.html

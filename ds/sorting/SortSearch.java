@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 //Collaborators Room 12 Alana Robinson
-//Patti Elfers, Erwin Lara, SueAnn Seccafico, TA Luca
+//Vanessa Zou, LaToya Boland, Tanya Wardally & TA Luca & TA Kevin 
 /*
 Sort Project:
 Part 1:  (BASIC)
@@ -20,12 +20,12 @@ Search Project:
   3. Complete the recursive version of binary search (Advanced)
 */
 
-public class SortSearch{
+public class SortSearch {
 
     /* Sort project starts here */
     
     /* Instance Variables */
-    private ArrayList<Integer> data;  // to store the data
+    public ArrayList<Integer> data;  // to store the data
     
     private Random r; 
 
@@ -53,8 +53,6 @@ public class SortSearch{
 	  return this.data.get(index);
     }
     
-
-
     /*
       return the index of the smallest data item from index start to the end
       of the ArrayList. If there are multiple of the smallest value,
@@ -76,7 +74,8 @@ public class SortSearch{
       //traverse the list with for loop
       //check if less than current number
       //at end of list will return smallestNumber
-      int smallestNumber = data.get(start);//Becuase start is the starting index to search from, we want to set the corresponding value to be our starting smallest number
+      int smallestNumber = data.get(start);
+      //Becuase start is the starting index to search from, we want to set the corresponding value to be our starting smallest number
       
       for(int i = start + 1; i <data.size(); i++) 
 //Because we've already dealt with data[start] in line 78, we want to start searching through the array past that, so smallIndex = start + 1, and this for loop will go from that to the end of the array
@@ -102,7 +101,6 @@ public class SortSearch{
          For each index, find the smallest from that Location
 	 to the end of the array and swap it with that index.
 	 
-       
     */
   
     public void sort(){
@@ -128,21 +126,11 @@ public class SortSearch{
     data.set(i, tempInt);
   //this data is now the temp data
        
-      //this was the original code but it did not run. 
-      //for(j= i+1; j<data.size(); j++) {
-       // if(data.get(j)<data.get(i)){
-       // temp = data.get(i);
-       // data.get(i) = data.get(j);
-       // data.get(j) = temp;
+ 
       }
       }
      
   //for each index, find the smallest from that location to the end of the array, swap it with that index
-
-
-    
-
-
 
     /* Search project starts here */
     
@@ -153,16 +141,19 @@ public class SortSearch{
        until either the element is found or you've looked at all the elements.
        This algorithm works on any ArrayList.
     */
+  
+// 7.21.22 @ 5pm fixed the code and it was able to compile, hopefully we can come back in the morning to discuss about it.  It was a code issue, we had extra codes and some codes repeated unnecessarily, it wasn't a curly bracket issue, it can be cause of the extra unneeded code.
+
     public int linearSearch(int value){
       //i is index: this is comparing the value and returning the i element
 	    for(int i =0; i<data.size(); i++) {
-      if (data.get(i) == value)
-      return i;// return the index of that element once the element is at i then you want to return that position
-      //if
         
-      }
-      return -1;
-// return -1 is if the index at i value is not found then you're telling the computer that this is outside the array loop, it's like an error message
+        if (data.get(i) == value){
+          return i;}// return the index of that element once the element is at i then you want to return that positio
+              }
+      
+      return -1; // return -1 is if the index at i value is not found then you're telling the computer that this is outside the array loop, it's like an error message
+      
       }
     
 	//  return 0; // replace this return
@@ -176,10 +167,67 @@ precondition is arry sorted from bigest to smallest or smallest to biggest
        
        This algorithm only works on sorted ArrayLists.
     */
-    //public int binarySearch(int value){
 
+  //
+//   [0 1 2 3 4 5]
+//   0 + 5 = 5 / 2 = 2.5 (int) = 2
+//                     1 < 2
+//   left = middle + 1;
+// right = middle - 1;
+  
+  public int binarySearch(int value){
+    // Kevin: Initialization outside the while loop
+  int low = 0;
+  int high = data.size() - 1;
 	// create assign variables representing the high, low and middle indices 
+    while (low < high) {
+
+      /*
+      This is a multiline comment
+      Lines!
+      */
+
+      int middle = (low + high)/2;
+      //System.out.println("middle: " + middle);
+          
 	// while we're not done:
+  //for (int middle = (low + high)/2; middle<data.size(); middle--) {//this is starting the search in the middle of the array
+    //int middle = (low + high)/2;// this code is  looking for the middle value and next we will find the middle from the left side of the array
+    if (value == data.get(middle)) {
+       return middle;
+    }
+     
+    else if (value < data.get(middle)){
+    //this is finding the middle value of the left side of the array
+      high = middle - 1;
+      middle = (low + high)/2;
+
+    }
+
+    else if (value > data.get(middle)) {
+      low = middle + 1;
+      middle = (low + high)/2;
+     //int middle = (low +high)/2;
+
+      // Kevin: No need for this if condition, the one found at line 196-198 does the same job
+      /*if (value == data.get(middle)) {
+        return middle;
+      }//204 */
+    }//199
+          
+      
+    }
+
+    return -1; // Kevin: return -1 if value was never found inside array, this return is outside the while loop
+  
+  }
+
+  
+public String toString(){
+  return ""+data;
+  }
+
+} 
 	// if the item is at data.get(middle), return middle
 	// otherwise, update high, low, and middle
 
@@ -193,25 +241,20 @@ precondition is arry sorted from bigest to smallest or smallest to biggest
        This algorithm only works on sorted ArrayLists.
     */
 
-  //  public int binarySearchRecursive(int value, int lowIndex, int highIndex){
+//    public int binarySearchRecursive(int value, int lowIndex, int highIndex){
 
-	// refer to class discussion
+// 	// refer to class discussion
 	
-	//return 0;
+// 	return 0;
 	    
-   // }
+//    }
     
 	
-  public String toString(){
-    return ""+data;
-  }
 
-}
-//public void builtinSort(){
-//	  Collections.sort(data);
 
- //   }
+// public void builtinSort(){
+// 	  Collections.sort(data;
+// }
     
 
     
-//}
