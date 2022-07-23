@@ -4,12 +4,12 @@ import java.util.*;
 public class Driver{
   public static void main(String[] args) {
     LinkedList l = new LinkedList();
-    l.add("HI");
-    l.add("Word");
-    l.add("Alana");
-    l.add("Cassara");
-    l.add("Moo Joon");
-    l.add(0, "Jerry");
+    l.add("HI" + "");
+    l.add("Word" + "");
+    l.add("Alana" + "");
+    l.add("Cassara" + "");
+    l.add("Moo Joon" + "");
+    l.add(0, "Jerry" + "");
     
     
     System.out.println(l);

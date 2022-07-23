@@ -6,49 +6,70 @@ public class SortSearchDriver {
 
 
 	// Uncomment these to test part 1
-	
+	System.out.println("List:");	
 	SortSearch ss = new SortSearch(20);
 	System.out.println(ss);
-	
+	System.out.println();	
 		
-	// Uncomment these to test part 2
+	// // Uncomment these to test part 2
 
-	 int i;
-	 i = ss.findSmallestIndex(0);
-    System.out.println("ss["+ i +"] = "+ss.get(i)+" : " + ss + "\n");
+  System.out.println("Smallest at Index 0:");
+	int i;
+	i = ss.findSmallestIndex(0);
+	System.out.println("ss["+ i +"] = "+ss.get(i)+" : " + ss);
+  System.out.println();
 
-	 i = ss.findSmallestIndex(3);
-	 System.out.println("ss["+ i + "] = "+ss.get(i)+" : " + ss + "\n");
-
-    i = ss.findSmallestIndex(10);// added a new test care element 10 is the starting index of your test 
-    System.out.println("ss["+ i +"] = "+ss.get(i)+" : " + ss + "\n");
-      
-	// Uncomment these to test part 3
-
+  System.out.println("Smallest at Index[]:");
+	i = ss.findSmallestIndex(3);
+	System.out.println("ss["+ i + "] = "+ss.get(i)+" : " + ss);
+  System.out.println();
+  System.out.println("==========");
+  System.out.println();
+  
+	// // Uncomment these to test part 3
+  System.out.println("List:");
 	System.out.println(ss);
-	ss.sort();//this only needs the array, it doesn't take any parameters
-  //System.out.println(ss);
-  System.out.println("Binary search for 5: " + ss.binarySearch(5) + " " + ss);
+  System.out.println();
+  System.out.println("Sorted List:");
+	ss.sort();
+	System.out.println(ss);
+  System.out.println();
+  System.out.println("==========");
+  System.out.println();
 
-   //Time () method - this is the time it takes to sort an array with int size 10000 elements  
-  int size = 100000; //instantiate size of arraylist 
+      
+
+  //Search project
+  //linear Search
+  System.out.println("Linear Search:");
+  System.out.println(ss);
+  System.out.println("Index " + ss.linearSearch(3));
+  System.out.println();
+  
+  //binary Search
+  System.out.println("Binary Search:");
+  System.out.println(ss);
+  System.out.println("Index " + ss.binarySearch(11));
+  System.out.println();    
+    
+
+
+  //Time () method - this is the time it takes to sort an array with int size 10000 elements  
+  int size = 100; //instantiate size of arraylist 
   long start,elapsed; //instantiate start and elapsed long variables (no value currently)
   SortSearch ss2 = new SortSearch(size); //construct sortSearch object ss2 with given size
   ss2.sort();
-	start = System.currentTimeMillis();
+	start = System.currentTimeMillis();  // this should go before sort if you want to calculate the time sort takes to run
 	size = ss2.linearSearch(5);
   //size = ss2.binarySearch(5);
 	elapsed = System.currentTimeMillis() - start;
-	System.out.println("Size: " + size + " Time: " + elapsed);
+  System.out.println("Size: " + size + " Time: " + elapsed);
 
   
         
     
 
-      //System.out.print("hello \n hello2" ); test case to add another line
+   //System.out.print("hello \n hello2" ); test case to add another line
 
 
-	      
-
-    }
-}
+	    
