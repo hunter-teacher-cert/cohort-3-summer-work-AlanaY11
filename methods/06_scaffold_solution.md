@@ -16,16 +16,15 @@ Students are provided the scratch solution code blocks.
 
 ### Students are given 5-6 Scratch blocks that are out of order and they need to reorder those blocks to show a loop/repetition in the story using Scratch Blocks/Task Cards (Basic)
 
-* SOLUTION (Basic)
+1. ## SOLUTION (Basic)
 ![when-flag-clicked](when-flag-clicked_2.png) (Sequence Code in this order: Use Block 1)
 ![say](say.png)  (Sequence Code in this order: Use Block 2)
 ![think@4x](think@4x.png)  (Sequence Code in this order: Use Block 3)
 ![move-steps](move-steps.png) (Sequence Code in this order: Use Block 4)
 ![repeat](repeat.png) (Sequence Code in this order: Use Block 5)
 
-2. Students will select the scratch blocks that will demonstrate a loop in the story using Scratch Blocks/Task Cards 
-* SOLUTION (Intermediate) Various Outcomes
-  
+2. ## Students will select the scratch blocks that will demonstrate a loop in the story using Scratch Blocks/Task Cards 
+* ## SOLUTION (Intermediate) Various Outcomes
 * Students will put the when green flag clicked on top, then put the say/start sound block inside the repeat block. They will have the say/start sound block, include the part of the text that is repeated in the text. They may have additional features such as costumes/sprites for the chair, bed with the different sizes. They would use this plan to complete the project on https://scratch.mit.edu, then run/debug as necessary.
 
 ![when-flag-clicked](when-flag-clicked_2.png) (Sequence Code in this order: Use Block 1)
@@ -42,9 +41,8 @@ Students are provided the scratch solution code blocks.
 ![if-then](if-then.png)
 ![forever](forever.png)
 ![repeat](repeat_2.png)
-
-3. Students will re-create a scene from the story using 2 types of loop blocks (forever) and (repeat) using Scratch Blocks/Task Cards.
-* SOLUTION (Advanced) Various Outcomes
+3. ## Students will re-create a scene from the story using 2 types of loop blocks (forever) and (repeat) using Scratch Blocks/Task Cards.
+* ## SOLUTION (Advanced) Various Outcomes
 * Solution: Students will put the when green flag clicked on top, then put the say/start sound block inside the repeat block. The solution would include the repeat loop with the number of repitions == to the number of times Goldilocks repeats the loop of this one is "too big, this one is too small, this one is juuust right!" This can vary depending on the version of the story used, but for the example text provided in the lesson resources it would be Repeat 3 (porridge, chair, bed). They will have the say/start sound block, include the part of the text that is repeated in the text. They may have additional features such as costumes/sprites for the chair, bed with the different sizes.
 
 ![when-flag-clicked](when-flag-clicked_2.png) 

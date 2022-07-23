@@ -37,7 +37,7 @@ Student choice based on interest and skill level: Student choose an activity bas
 * **Second**, students program their code in Scratch and can work in strategic pairs as driver/navigator. Log into Scratch @ https://scratch.mit.edu, then run/debug as necessary.
   
 
- 1. Students are given a task card and 5-6 Scratch blocks that are out of order. Students 
+ 1. ## Students are given a task card and 5-6 Scratch blocks that are out of order. Students 
   have to reorder those blocks to show a loop/repetition in the story. 
   (i.e. Repeat Block, speak block (Basic)
 
@@ -50,7 +50,7 @@ Student choice based on interest and skill level: Student choose an activity bas
 https://scratch.mit.edu, then run/debug as necessary.
   
 
-2. Students will have to determine which scratch blocks they need to 
+2. ## Students will have to determine which scratch blocks they need to 
 * demonstrate the loop in the story. (Intermediate) 
  
 ![play-sound-until-done@4x](play-sound-until-done@4x.png)
@@ -67,8 +67,8 @@ https://scratch.mit.edu, then run/debug as necessary.
 ![forever](forever.png)
 ![repeat](repeat_2.png)
 https://scratch.mit.edu, then run/debug as necessary.
-* 
-3. Students will retell the story to determine what number they would have to show in the loop to show how many items Goldilocks tried something in the bears home (until she found the one that was just right).
+
+3. ## Students will retell the story to determine what number they would have to show in the loop to show how many items Goldilocks tried something in the bears home (until she found the one that was just right).
 * (Advanced)
 
 ![play-sound-until-done@4x](play-sound-until-done@4x.png)
